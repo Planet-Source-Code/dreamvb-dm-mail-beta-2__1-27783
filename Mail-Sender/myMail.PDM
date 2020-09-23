@@ -1,0 +1,197 @@
+[Root]
+Most Recent Package=Setup
+
+
+[Package|Standard Setup Package 1|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\DMEasyMail
+
+[Package|Standard Setup Package 1|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Standard Setup Package 1|Files Found]
+
+[Package|Standard Setup Package 1|Files Released]
+
+[Package|Standard Setup Package 1|Missing Dependency Information]
+C:\Program Files\Common Files\Microsoft Shared\Triedit\DHTMLED.OCX=
+
+[Package|Standard Setup Package 1|Out-of-Date Dependency Information]
+C:\WINNT\system32\MSCOMCTL.OCX=
+C:\WINNT\system32\MSWinSck.ocx=
+
+[Package|Standard Setup Package 1|Files Added]
+
+[Package|Standard Setup Package 1|Files Removed]
+c:\winnt\system32\msvbvm60.dll=
+c:\winnt\system32\oleaut32.dll=
+c:\winnt\system32\olepro32.dll=
+c:\winnt\system32\asycfilt.dll=
+c:\winnt\system32\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|Standard Setup Package 1|Files In Project]
+C:\Documents and Settings\Administrator\Desktop\VB-Projects\Mail-Sender\myMail.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=No
+C:\WINNT\system32\oleaut32.dll=No
+C:\WINNT\system32\olepro32.dll=No
+C:\WINNT\system32\asycfilt.dll=No
+C:\WINNT\system32\stdole2.tlb=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\WINNT\system32\MSWinSck.ocx=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\Program Files\Common Files\Microsoft Shared\Triedit\DHTMLED.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+
+[Package|Standard Setup Package 1|Configure Registry Files]
+Applicable=No
+
+[Package|Standard Setup Package 1|Configure Remote Servers]
+Applicable=No
+
+[Package|Standard Setup Package 1|Install Locations]
+C:\Documents and Settings\Administrator\Desktop\VB-Projects\Mail-Sender\myMail.exe=$(AppPath)
+C:\WINNT\system32\MSWinSck.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\Triedit\DHTMLED.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+
+[Package|Standard Setup Package 1|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Administrator\Desktop\VB-Projects\Mail-Sender\myMail.exe=No
+
+[Package|Standard Setup Package 1|Distribution]
+Type=single
+Size=
+Title=Project1
+
+[Package|Standard Setup Package 1|IconGroups]
+Group0=Project1
+PrivateGroup0=True
+Parent0=$(Programs)
+
+[Package|Standard Setup Package 1|Project1]
+Icon1=myMail.exe
+Title1=Project1
+StartIn1=$(AppPath)
+Key1=Icon1
+
+[Package|Standard Setup Package 1|Package]
+PackageFolder=c:\DMEasyMail
+ProjectFolder=C:\Documents and Settings\Administrator\Desktop\VB-Projects\Mail-Sender
+ServerSideCab=
+File1=c:\DMEasyMail\setup.exe
+File2=c:\DMEasyMail\Setup.Lst
+File3=c:\DMEasyMail\myMail.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Setup|Root]
+SubWizProgID=PDWizard.SetupPkgSubWiz
+BuildFolder=c:\DMEasyMail
+
+[Package|Setup|Configure DAO ISAMs]
+Applicable=No
+
+[Package|Setup|Configure DAO ODBC]
+JetWorkspace=
+ODBCDirect=
+
+[Package|Setup|Files Found]
+
+[Package|Setup|Files Released]
+
+[Package|Setup|Missing Dependency Information]
+C:\Program Files\Common Files\Microsoft Shared\Triedit\DHTMLED.OCX=
+C:\WINNT\system32\DHTMLED.OCX=
+
+[Package|Setup|Out-of-Date Dependency Information]
+C:\WINNT\system32\MSCOMCTL.OCX=
+C:\WINNT\system32\MSWinSck.ocx=
+
+[Package|Setup|Files Added]
+C:\Documents and Settings\Administrator\Desktop\VB-Projects\Mail-Sender\config.ini=
+
+[Package|Setup|Files Removed]
+c:\winnt\system32\msvbvm60.dll=
+c:\winnt\system32\oleaut32.dll=
+c:\winnt\system32\olepro32.dll=
+c:\winnt\system32\asycfilt.dll=
+c:\winnt\system32\stdole2.tlb=
+c:\program files\microsoft visual studio\vb98\wizards\pdwizard\redist\comcat.dll=
+
+[Package|Setup|Files In Project]
+C:\Documents and Settings\Administrator\Desktop\VB-Projects\Mail-Sender\myMail.exe=Yes
+C:\WINNT\system32\msvbvm60.dll=No
+C:\WINNT\system32\oleaut32.dll=No
+C:\WINNT\system32\olepro32.dll=No
+C:\WINNT\system32\asycfilt.dll=No
+C:\WINNT\system32\stdole2.tlb=No
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\Redist\COMCAT.DLL=No
+C:\WINNT\system32\MSWinSck.ocx=Yes
+C:\WINNT\system32\MSCOMCTL.OCX=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=Yes
+C:\WINNT\system32\VB6STKIT.DLL=Yes
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=Yes
+C:\WINNT\system32\DHTMLED.OCX=Yes
+C:\Documents and Settings\Administrator\Desktop\VB-Projects\Mail-Sender\config.ini=Yes
+
+[Package|Setup|Configure Registry Files]
+Applicable=No
+
+[Package|Setup|Configure Remote Servers]
+Applicable=No
+
+[Package|Setup|Install Locations]
+C:\Documents and Settings\Administrator\Desktop\VB-Projects\Mail-Sender\myMail.exe=$(AppPath)
+C:\WINNT\system32\MSWinSck.ocx=$(WinSysPath)
+C:\WINNT\system32\MSCOMCTL.OCX=$(WinSysPath)
+C:\Program Files\Common Files\Microsoft Shared\Triedit\DHTMLED.OCX=$(WinSysPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP.EXE=$(AppPath)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\SETUP1.EXE=$(WinPath)
+C:\WINNT\system32\VB6STKIT.DLL=$(WinSysPathSysFile)
+C:\Program Files\Microsoft Visual Studio\VB98\Wizards\PDWizard\ST6UNST.EXE=$(WinPath)
+C:\WINNT\system32\DHTMLED.OCX=$(WinSysPath)
+C:\Documents and Settings\Administrator\Desktop\VB-Projects\Mail-Sender\config.ini=$(AppPath)
+
+[Package|Setup|Configure Shared Files]
+Applicable=Yes
+C:\Documents and Settings\Administrator\Desktop\VB-Projects\Mail-Sender\myMail.exe=No
+C:\Documents and Settings\Administrator\Desktop\VB-Projects\Mail-Sender\config.ini=No
+
+[Package|Setup|Distribution]
+Type=single
+Size=
+Title=DM Easy Mail Sender
+
+[Package|Setup|Package]
+PackageFolder=c:\DMEasyMail
+ProjectFolder=C:\Documents and Settings\Administrator\Desktop\VB-Projects\Mail-Sender
+ServerSideCab=
+File1=c:\DMEasyMail\setup.exe
+File2=c:\DMEasyMail\Setup.Lst
+File3=c:\DMEasyMail\myMail.CAB
+Handler1=PDWizard.FolderDplySubWiz
+Handler2=PDWizard.WebPostDplySubWiz
+
+[Package|Setup|IconGroups]
+Group0=$(Programs)
+PrivateGroup0=True
+Parent0=
+
+[Package|Setup|$(Programs)]
+Icon1=myMail.exe
+Title1=DM EasyMail
+StartIn1=$(AppPath)
+Key1=Icon3
